@@ -1,0 +1,148 @@
+.landingPage{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.formBox{
+  background-color: #282a36;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+}
+
+.inputGroup{
+  display: flex;
+  flex-direction: column;
+}
+
+.label{
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.landinglogo{
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.inputBox{
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-bottom: 10px;
+  background-color: #eee;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn{
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.joinbtn{
+  background: #6707AA;
+  width: 100px;
+  margin-left: auto;
+}
+
+.joinbtn:hover{
+  background: #b689e5;
+}
+
+.newid{
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.newidbtn{
+  color: #6707AA;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+.newidbtn:hover , footer a:hover{
+  color: #b689e5;
+}
+
+
+.mainWrap{
+  display: grid;
+  grid-template-columns: 230px 1fr;
+  /* height: 100vh; */
+}
+
+.aside{
+  background: #1c1e29;
+  padding: 16px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.asideInner{
+  flex: 1;
+}
+
+.clientList{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.client{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+.username{
+  margin-top: 10px;
+}
+
+.logo{
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+}
+.logoImage{
+  height: 60px;
+}
+
+.exitBtn{
+  background: rgb(184, 44, 44);
+  margin-top: 20px;
+}
+.exitBtn:hover{
+  background: rgb(236, 22, 22);
+}
+
+.CodeMirror{
+  /* calcluation part */
+  min-height: 98vh;
+  font-size: 20px;
+  line-height: 1.6;
+  padding-top: 10px;
+}
+
+
+
+
+
+footer{
+  position: fixed;
+  bottom: 0;
+}
+
+footer a{
+  color: #6707AA;
+  text-decoration: none;
+}
