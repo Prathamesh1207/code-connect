@@ -30,6 +30,8 @@ const Home = () => {
       return;
     }
 
+    sessionStorage.setItem("username",username);
+
     navigate(`/editor/${roomId}`,{
       state:{username}, //to access username on 2nd page (state management)
     })

@@ -31,6 +31,7 @@ const EditorPage = () => {
   }
 
   function exitRoom (){
+    sessionStorage.removeItem('username');
     navigate('/');
   }
 
@@ -98,6 +99,10 @@ const EditorPage = () => {
 
   if(!location.state){
     <Navigate to='/' />
+  }
+
+  if(!sessionStorage.getItem("username")){
+    return <Navigate to="/" replace />
   }
 
   return (
