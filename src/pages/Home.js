@@ -45,9 +45,14 @@ const Home = () => {
   }
 
   return (
-    <div className='landingPage'>
+    <div className='landingPage banner'>
       <div className='formBox'>
-        <img className='landinglogo' src='/logo.png' alt='code-connect-logo'/>
+
+        <div className='logoAndName'>
+          <img className='landinglogo' src='/logo.png' alt='code-connect-logo'/>
+          <h2 className='codeConnectName'>Code-Connect</h2>  
+        </div>
+
         <h4 className='label'>Enter Room ID to connect</h4>
         <div className='inputGroup'>
           <input type='text' className='inputBox' onChange={(e)=>setRoomId(e.target.value)} 
@@ -63,7 +68,8 @@ const Home = () => {
       </div>
 
       <footer>
-        <h4>Built by <a href=''>code-connect</a> ✨ </h4>
+        {/* <h4>Built by <a href=''>code-connect</a> ✨ </h4> */}
+        <h4> ✨ Happy Coding ✨</h4>
       </footer>
 
     </div>

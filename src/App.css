@@ -1,3 +1,18 @@
+.banner{
+  background-image: url(../public/pexels-danny-meneses-340146-943096.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vmin;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+
 .landingPage{
   height: 100vh;
   display: flex;
@@ -7,7 +22,7 @@
 }
 
 .formBox{
-  background-color: #282a36;
+  background-color: transparent;
   padding: 20px;
   border-radius: 10px;
   width: 400px;
@@ -71,6 +86,9 @@
 }
 .newidbtn:hover , footer a:hover{
   color: #b689e5;
+  transition: all 0.2s ease-in-out;
+  font-weight: 300;
+  text-shadow: 0 0 8px #ece0c8;
 }
 
 
@@ -81,11 +99,20 @@
 }
 
 .aside{
-  background: #1c1e29;
-  padding: 16px;
+  background-image: url(../public/pexels-danny-meneses-340146-943096.jpg);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  justify-content: center;
+
   color: white;
   display: flex;
   flex-direction: column;
+
+
+  padding: 16px;
+
 }
 
 .asideInner{
@@ -142,7 +169,23 @@ footer{
   bottom: 0;
 }
 
-footer a{
-  color: #6707AA;
-  text-decoration: none;
+
+
+
+
+.logoAndName{
+  display: flex;
+}
+.codeConnectName{
+  margin-left: auto;
+  margin-right: 20px;
+  margin-top: 35px;
+  font-size: 35px;
+}
+.landinglogo{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.formBox{
+  padding-top: 0px;
 }
